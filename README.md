@@ -6,13 +6,13 @@ Idea is mine, architecture is mine, implementation is done by AI (yk, time const
 ## Architecture
 ![System architecture](./docs/arc.png)
 ## Tech stack
-Golang (net/http) for audio ingestor, history service
-FastAPI for renderer service (easy to implement LOL)
-Python worker (with gnan AI stuff) for inference worker
-PostgreSQL (through neon) for database
-Redis cloud for cache
-NextJS for frontend (and some random js libs for maps and stuff, pls ask gemini, i am not a frontend dev)
-Amazon S3 for object store
-Amazon SQS for message queue
+1. Golang (net/http) for audio ingestor, history service
+2. FastAPI for renderer service (easy to implement LOL)
+3. Python worker (with gnan AI stuff) for inference worker
+4. PostgreSQL (through neon) for database
+5. Redis cloud for cache
+6. NextJS for frontend (and some random js libs for maps and stuff, pls ask gemini, i am not a frontend dev)
+7. Amazon S3 for object store
+8. Amazon SQS for message queue
 
 
